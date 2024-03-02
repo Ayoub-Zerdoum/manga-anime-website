@@ -11,7 +11,7 @@ Developed as an academic project by:
 </ul>
 
 ## Project Overview
-This demo serves as a preview of  a Manga Anime and Light Novel platform, designed to an front end project. 
+This demo serves as a preview of  a Manga Anime and Light Novel platform, designed to a front end project. 
 Please keep in mind that this is a demonstration version for an academic project, and some features may not be fully functional. 
 <br>
 The application should allow users to :

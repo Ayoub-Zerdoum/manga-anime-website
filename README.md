@@ -1,12 +1,14 @@
 # Manga Anime and Light Novel Platform
 Developed as an academic project by:
--Ayoub ZERDOUM
+- Ayoub ZERDOUM
 
 ## TECH used
--HTML
--CSS
--javascript
--Boostrap 5
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>javascript</li>
+  <li>Boostrap 5</li>
+</ul>
 
 ## Project Overview
 This demo serves as a preview of  a Manga Anime and Light Novel platform, designed to an front end project. 

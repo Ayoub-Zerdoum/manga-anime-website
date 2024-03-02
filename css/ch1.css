@@ -1,0 +1,254 @@
+.space{
+    height: 100px;;
+}
+
+/* start header area */
+.header-area .main-menu .navbar .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.header-area .main-menu .navbar{
+    padding: 4px 0.5rem 4px 1rem;
+    background-color: black;
+}
+
+nav.navbar {
+    box-shadow:  0 1rem 3rem rgb(255, 0, 0,0.5);
+}
+
+nav img{
+    height: 4rem;
+    width: auto;
+}
+
+
+.header-area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 2rem;
+}
+
+.header-area .main-menu .navbar-nav .active a{
+    color: white;
+}
+
+.header-area .main-menu .navbar-nav a:hover{
+    color: white;
+    border-bottom: 3px solid red;
+}
+
+.header-area .main-menu .btn_search{
+    color: red;
+    background-color: white;
+    border: red solid;
+}
+
+.header-area .main-menu .form-control{
+    color: red;
+    border: red solid;
+}
+
+.header-area .main-menu .btn_search:hover{
+    color: white;
+    background-color: red;
+    border: white solid;
+}
+
+.header-area .main-menu .nav-item .nav-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2px;
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: red;
+}
+/* end header area */
+
+img {
+	display: block; /* display the image as a block element */
+	margin: 9 auto; /* center the image horizontally */
+	max-width: 100%; /* make sure the image doesn't exceed its container width */
+	height: auto; /* adjust the height automatically based on the width */
+}
+/* Common styles for both modes */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  /*
+  nav {
+    background-color: #050050;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  li {
+    margin-left: 20px;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .container {
+    
+    margin: 50px;
+
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+  }
+  
+  
+  
+  
+  
+  /* Dark mode styles */
+  body.dark-mode {
+    background-color: #1f1f1f;
+    color: white;
+  }
+  nav.dark-mode {
+    background-color: #282828;
+  }
+  li.dark-mode {
+    margin-left: 20px;
+  }
+
+.box2 li.change.dark-mode{
+    border: 3px solid red;
+}
+
+.box2 li.change.dark-mode a{
+    color: red;
+}
+
+.box3 li.chapters.dark-mode {
+  border-bottom: 1px solid red;
+}
+
+.box3 li.chapters.dark-mode a{
+  color: red;
+}
+  
+  /* White mode styles */
+  body.white-mode {
+    background-color: white;
+    color: black;
+  }
+  nav.white-mode {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+body > header > div > nav > div > li.mode.white-mode{
+    color: white;
+    border-bottom: 3px solid red;
+}
+
+body.white-mode .box3 .btn{
+  background-color: #1f1f1f;
+  color: white;
+}
+
+body.dark-mode .box3 .btn{
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode .box3 .dropdown-menu{
+  background-color: white;
+}
+
+body.white-mode .box3 .dropdown-menu{
+  background-color: black;
+}
+
+.box2 li.change.white-mode{
+    border: 3px solid red;
+}
+
+.box2 li.change.white-mode a{
+    color: red;
+}
+
+body.white-mode .box3 li.chapters{
+  border-bottom: 1px solid white;
+}
+
+body.white-mode .box3 li.chapters a{
+  color: white;
+  text-decoration: none;
+}
+
+body.dark-mode .box3 li.chapters {
+  border-bottom: 1px solid black;
+}
+
+body.dark-mode .box3 li.chapters a{
+  color: black;
+  text-decoration: none;
+}
+
+
+.box3 .btn{
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+  li.white-mode {
+    margin-left: 20px;
+  }
+
+  /* Next & Back */
+
+.box2 li.change{
+    display: flex;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 li.change a{
+    text-decoration: none;
+    color: red;
+}
+
+.box2 li.change .bi-arrow-left-circle-fill{
+    padding-right: 15px;
+}
+
+.box2 li.change .bi-arrow-right-circle-fill{
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        display: grid;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* drop down begining*/
+

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel Pages</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/home_styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+</head>
+<body>
+    <!-- ======================= start header ======================== -->
+    <header class="header-area">
+        <div class="main-menu">
+          <nav class="navbar fixed-top navbar-expand-xl">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="/images/logo2.png" alt="logo"></a>
+              <button class="navbar-toggler tgl_btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/Home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/novel_page.html">Light Novels</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/manga_page.html">Manga</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="/anime_page.html">Anime</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success btn_search" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+    <!-- ======================= end header ======================== -->
+<!-- =======================  start Main Area ======================== -->
+<main class="site-main">
+   <div class="space"></div>
+    <!-- =======================  start projects Area ======================== -->
+    <section class="project-area">
+      <div id="btnContainer" class="Cont">
+        <button class="btn" onclick="filter('all')">All</button>
+        <button class="btn" onclick="filter('action')">Action</button>
+        <button class="btn" onclick="filter('comedy')">Comedy</button>
+        <button class="btn" onclick="filter('fiction')">Science fiction</button>
+        <button class="btn" onclick="filter('drama')">Drama</button>
+        <button class="btn" onclick="filter('horreur')">Horreur</button>
+      </div>
+
+      <div class="row">
+        <div class="column action">
+          <div class="content">
+            <img src="/images/anime/boruto.jpg" style="width: 100%;">
+            <h4>Boruto x Naruto Next Generations</h4>
+            <h6>GENRE : action</h6>
+            <h6>auteur : ------</h6>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+              </div>
+              <h5 class="review-count">105578 Reviews</h5>
+          </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati magnam eveniet ullam expedita molestias possimus nesciunt molestiae accusantium voluptates tempore atque, commodi nam modi aspernatur a. Quisquam, corrupti quidem.</p>
+            <a href="/anime/boruto episodes/boruto1.html" class="column2 btn">Watch NOW</a>
+            <a href="/anime/boruto._about.html" class="column2 btn">about</a>
+          </div>
+        </div>
+        <div class="column action">
+          <div class="content">
+            <img src="/images/anime/bleach.jpg" style="width: 100%;">
+            <h4>Bleach</h4>
+            <h6>GENRE : action</h6>
+            <h6>auteur : ------</h6>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+              <h5 class="review-count">1252 Reviews</h5>
+          </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati magnam eveniet ullam expedita molestias possimus nesciunt molestiae accusantium voluptates tempore atque, commodi nam modi aspernatur a. Quisquam, corrupti quidem.</p>
+            <a href="#" class="column2 btn">LIRE</a>
+            <a href="#" class="column2 btn">about</a>
+          </div>
+        </div>
+        <div class="column comedy">
+          <div class="content">
+            <img src="/images/anime/SPY_x_FAMILY.webp" style="width: 100%;">
+            <h4>SPY X FAMILY</h4>
+            <h6>GENRE : comedy</h6>
+            <h6>author : ------</h6>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+              <h5 class="review-count">1252 Reviews</h5>
+          </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati magnam eveniet ullam expedita molestias possimus nesciunt molestiae accusantium voluptates tempore atque, commodi nam modi aspernatur a. Quisquam, corrupti quidem.</p>
+            <a href="#" class="column2 btn">LIRE</a>
+            <a href="#" class="column2 btn">about</a>
+          </div>
+        </div>
+        <div class="column drama">
+          <div class="content">
+            <img src="/images/anime/Code_Geass.jpg" style="width: 100%;">
+            <h4>Code Geass</h4>
+            <h6>GENRE : drama</h6>
+            <h6>author : ------</h6>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+              </div>
+              <h5 class="review-count">1252 Reviews</h5>
+          </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati magnam eveniet ullam expedita molestias possimus nesciunt molestiae accusantium voluptates tempore atque, commodi nam modi aspernatur a. Quisquam, corrupti quidem.</p>
+            <a href="#" class="column2 btn">LIRE</a>
+            <a href="#" class="column2 btn">about</a>
+          </div>
+        </div>
+
+        <div class="column action">
+          <div class="content">
+            <img src="/images/anime/naruto.jpg" style="width: 100%;">
+            <h4>Naruto</h4>
+            <h6>GENRE : action</h6>
+            <h6>author : ------</h6>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+              <h5 class="review-count">1252 Reviews</h5>
+          </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati magnam eveniet ullam expedita molestias possimus nesciunt molestiae accusantium voluptates tempore atque, commodi nam modi aspernatur a. Quisquam, corrupti quidem.</p>
+            <a href="#" class="column2 btn">LIRE</a>
+            <a href="#" class="column2 btn">about</a>
+          </div>
+        </div>
+
+        <div class="column fiction">
+          <div class="content">
+            <img src="/images/anime/black clover.jpg" style="width: 100%;">
+            <h4>Black Clover</h4>
+            <h6>GENRE : fiction</h6>
+            <h6>author : ------</h6>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+              <h5 class="review-count">1252 Reviews</h5>
+          </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati magnam eveniet ullam expedita molestias possimus nesciunt molestiae accusantium voluptates tempore atque, commodi nam modi aspernatur a. Quisquam, corrupti quidem.</p>
+            <a href="#" class="column2 btn">LIRE</a>
+            <a href="#" class="column2 btn">about</a>
+          </div>
+        </div>
+
+        <div class="column horreur">
+          <div class="content">
+            <img src="/images/anime/AOT.jpg" style="width: 100%;">
+            <h4>Attack On Titan</h4>
+            <h6>GENRE : horror</h6>
+            <h6>author : ------</h6>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+              <h5 class="review-count">1252 Reviews</h5>
+          </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati magnam eveniet ullam expedita molestias possimus nesciunt molestiae accusantium voluptates tempore atque, commodi nam modi aspernatur a. Quisquam, corrupti quidem.</p>
+            <a href="#" class="column2 btn">LIRE</a>
+            <a href="#" class="column2 btn">about</a>
+          </div>
+        </div>
+
+        <div class="column fiction">
+          <div class="content">
+            <img src="/images/anime/demon slayer.jpg" style="width: 100%;">
+            <h4>Demon Slayer</h4>
+            <h6>GENRE : fiction</h6>
+            <h6>author : ------</h6>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+              <h5 class="review-count">1252 Reviews</h5>
+          </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati magnam eveniet ullam expedita molestias possimus nesciunt molestiae accusantium voluptates tempore atque, commodi nam modi aspernatur a. Quisquam, corrupti quidem.</p>
+            <a href="#" class="column2 btn">LIRE</a>
+            <a href="#" class="column2 btn">about</a>
+          </div>
+        </div>
+
+        <div class="column fiction">
+          <div class="content">
+            <img src="/images/anime/HXH.jpg" style="width: 100%;">
+            <h4>Hunter X Hunter</h4>
+            <h6>GENRE : fiction</h6>
+            <h6>author : ------</h6>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+              <h5 class="review-count">1252 Reviews</h5>
+          </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati magnam eveniet ullam expedita molestias possimus nesciunt molestiae accusantium voluptates tempore atque, commodi nam modi aspernatur a. Quisquam, corrupti quidem.</p>
+            <a href="#" class="column2 btn">Watch</a>
+            <a href="#" class="column2 btn">about</a>
+          </div>
+        </div>
+
+        <div class="column horreur">
+          <div class="content">
+            <img src="/images/anime/parasite_la_maxime.jpg" style="width: 100%;">
+            <h4>Parasite</h4>
+            <h6>GENRE : horror</h6>
+            <h6>author : ------</h6>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+              <h5 class="review-count">1252 Reviews</h5>
+          </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati magnam eveniet ullam expedita molestias possimus nesciunt molestiae accusantium voluptates tempore atque, commodi nam modi aspernatur a. Quisquam, corrupti quidem.</p>
+            <a href="#" class="column2 btn">Watch</a>
+            <a href="#" class="column2 btn">about</a>
+          </div>
+        </div>
+
+        <div class="column drama">
+          <div class="content">
+            <img src="/images/anime/death note.png" style="width: 100%;">
+            <h4>Death Note</h4>
+            <h6>GENRE : drama</h6>
+            <h6>author : ------</h6>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+              </div>
+              <h5 class="review-count">1252 Reviews</h5>
+          </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati magnam eveniet ullam expedita molestias possimus nesciunt molestiae accusantium voluptates tempore atque, commodi nam modi aspernatur a. Quisquam, corrupti quidem.</p>
+            <a href="#" class="column2 btn">Watch</a>
+            <a href="#" class="column2 btn">about</a>
+          </div>
+        </div>
+
+        <div class="column fiction">
+          <div class="content">
+            <img src="/images/anime/one piece.avif" style="width: 100%;">
+            <h4>One Piece</h4>
+            <h6>GENRE : fiction</h6>
+            <h6>author : ------</h6>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+              </div>
+              <h5 class="review-count">1252 Reviews</h5>
+          </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati magnam eveniet ullam expedita molestias possimus nesciunt molestiae accusantium voluptates tempore atque, commodi nam modi aspernatur a. Quisquam, corrupti quidem.</p>
+            <a href="#" class="column2 btn">Watch</a>
+            <a href="#" class="column2 btn">about</a>
+          </div>
+        </div>
+
+      </div>
+        
+        
+    </section>
+  
+         <!-- =======================  End projects Area ======================== -->
+</main>
+<!-- =======================  end Main Area ======================== -->
+
+    <!-- =======================  Start footer ======================== -->
+    <footer class="footer-area">
+        <div class="container">
+        <div class="">
+         
+            <div class="social text-center">
+            <h5 class="text-uppercase">Follow me</h5>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+            <div class="copyrights text-center">
+            <p class="para">
+                Copyright 2020 All reserved . This template is made with by 
+                <a href="#"><span style="color: #4458dc;">Ayoub Zerdoum</span></a>
+            </p>
+            </div>
+        </div>
+        </div>
+    </footer>
+  
+      <!-- =======================  end footer ======================== -->
+
+
+    </header>
+    <script type="text/javascript">
+      filter("all");
+      function filter(Selection){
+        var x,i;
+        x = document.getElementsByClassName("column");
+        if(Selection == "all") Selection ="";
+        for(i=0; i<x.length;i++){
+            RemoveClass(x[i],"show");
+            if(x[i].className.indexOf(Selection)>-1) AddClass(x[i],"show");
+        }
+      }
+
+      function AddClass(element,name){
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for(i=0;i<arr2.length; i++){
+            if(arr1.indexOf(arr2[i])== -1){element.className+=" "+arr2[i];}
+          }
+      }
+
+      function RemoveClass(element,name){
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for(i=0;i<arr2.length; i++){
+              while(arr1.indexOf(arr2[i]) > -1){
+                  arr1.splice(arr1.indexOf(arr2[i]),1);
+              }
+          }
+          element.className = arr1.join(" ");
+      }
+
+      var btnsContainer = document.getElementById("btnContainer");
+      var btns = btnsContainer.getElementsByClassName("btn");
+      for(var i =0;i<btns.length;i++){
+        btns[i].addEventListener("click",function(){
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace("active","");
+          this.className +=" active";
+        })
+      }
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>

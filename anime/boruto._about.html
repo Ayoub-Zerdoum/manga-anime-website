@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emperor’s Domination
+    </title>
+    <link rel="shortcut icon" href="../../img/pd3.webp">
+    <link rel="stylesheet" href="/css/ch1.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  </head>
+  <body class="dark-mode">
+    <header class="header-area">
+        <div class="main-menu">
+          <nav class="navbar fixed-top navbar-expand-xl">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="/images/logo2.png" alt="logo"></a>
+              <button class="navbar-toggler tgl_btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/novel_page.html">Light Novels</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/manga_page.html">Manga</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/anime_page.html">Anime</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                </ul>
+              </div>
+              <li class="nav-item mode"><a class="nav-link" href="#" id="mode-toggle">Mode</a></li>
+            </div>
+          </nav>
+          </div>
+        </header>
+    <!-- ======================= end header ======================== -->
+       <div class="space"></div>
+            
+           
+        <div class="container">  
+        <div class="box1">
+            <img src="/images/anime/boruto.jpg" style="transform: scale(2); padding-right: 2rem; padding-bottom: 7rem;padding-top: 2rem;" alt="A descriptive text for your image"> 
+        </div>
+        <div class="box2" style="margin-left: 2rem;"> <h1>Boruto: Naruto Next Generations</h1>
+        <div>  Author:
+            Masashi Kishimoto & Ukyō Kodachi</div>
+            <p>
+            « Boruto » suit les traces d’un ninja qui vit l’évolution de l’art ancestral du ninjutsu à travers la modernisation de son époque. Fils de Naruto Uzumaki, le 7e Hokage du village de Konoha, il est promis à un brillant avenir. Toutefois, loin de partager l’engouement et le respect que l’on porte à son père Boruto est constamment confronté aux préjugés et aux attentes des gens qui l’entourent, ce qui lui pèse extrêmement. Parallèlement, il met à profit l’usage de nouveaux outils (jugés inutiles par son père), élaborés par le laboratoire de Konoha, censés améliorer les aptitudes de ninjas. Désireux de ne pas suivre les traces de ce dernier, il va chercher à se forger son propre chemin à l’aide de ses deux amis : Mitsuki et Sarada. Si l’univers de « Boruto » évoque le fossé générationnel, sujet très fréquemment traité, il cherche néanmoins à mêler tradition et modernité avec brio ! Boruto arrivera-t-il à se faire reconnaître à sa juste valeur ?</p>
+            <nav>
+            <ul>
+                <li class="change"><a href="/Home.html"><i class="bi bi-arrow-left-circle-fill"></i>Back</a></li>
+                <li class="change"><a href="/anime/boruto episodes/boruto1.html">Watch<i class="bi bi-arrow-right-circle-fill"></i></a></li>
+            </ul>
+            </nav>
+        </div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+            <script>
+                const modeToggle = document.querySelector('#mode-toggle');
+                const body = document.querySelector('body');
+                const nav = document.querySelector('nav');
+                const lis = document.querySelectorAll('li');
+                
+                modeToggle.addEventListener('click', () => {
+                  body.classList.toggle('dark-mode');
+                  body.classList.toggle('white-mode');
+                  nav.classList.toggle('dark-mode');
+                  nav.classList.toggle('white-mode');
+                  lis.forEach(li => li.classList.toggle('dark-mode'));
+                  lis.forEach(li => li.classList.toggle('white-mode'));
+                });
+              </script>
+  </body>
+</html>

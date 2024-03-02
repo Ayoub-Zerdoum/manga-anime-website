@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emperor’s Domination
+    </title>
+    <link rel="shortcut icon" href="../../img/pd3.webp">
+    <link rel="stylesheet" href="/css/ch1.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  </head>
+  <body class="dark-mode">
+    <header class="header-area">
+        <div class="main-menu">
+          <nav class="navbar fixed-top navbar-expand-xl">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="/images/logo2.png" alt="logo"></a>
+              <button class="navbar-toggler tgl_btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Light Novels</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Manga</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Anime</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                </ul>
+              </div>
+              <li class="nav-item mode"><a class="nav-link" href="#" id="mode-toggle">Mode</a></li>
+            </div>
+          </nav>
+          </div>
+        </header>
+    <!-- ======================= end header ======================== -->
+       <div class="space"></div>
+            <div class="container">
+            <img src="../../img/Emperor’s Domination.PNG" alt="A descriptive text for your image">
+            <div class="container">
+
+        <div class="box1">
+        </div>
+               <div class="box2"> <h1>Emperor’s Domination
+              </h1>
+                <div>  Author:
+                  Yanbi Xiaosheng (厌笔萧生) </div>
+                  <div>  Translator:
+                  ImmortalEmperorBao </div>
+                  Bao’s Synopsis: A boy that was imprisoned for millions of years had regained his mortal body. He became a disciple of the declining Cleansing Incense Ancient Sect where its patriarch used to be his disciple. Now, he will bring this sect back to its former glory.
+                  This is his journey to reach the apex and take revenge on those who had imprisoned him.
+                  This is his story of meeting old friends and making new companions.
+                  This is his path of traversing the Nine Worlds and becoming the next ruler of the Heavens.
+                  Qidian’s Synopsis: Ten million years ago, Li Qiye planted a simple water bamboo into the ground.Eight million years ago, Li Qiye had a koi fish pet.Five million years ago, Li Qiye cared for a little girl....In the present day, Li Qiye woke up from his slumber; the water bamboo reached the apex of cultivation; the koi fish became a Golden Dragon; the little girl became the Nine Worlds’ Immortal Empress.
+                  This is a tale regarding an immortal human who was the teacher of the Demon Saint, Heavenly Beast, and Immortal Empress.
+                  <nav>
+                    <ul>
+                      <li class="change"><a href="../../home.html"><i class="bi bi-arrow-left-circle-fill"></i>Back</a></li>
+                      <li class="change"><a href="ch1.html">Next<i class="bi bi-arrow-right-circle-fill"></i></a></li>
+                    </ul>
+                  </nav>
+                </div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+            <script>
+                const modeToggle = document.querySelector('#mode-toggle');
+                const body = document.querySelector('body');
+                const nav = document.querySelector('nav');
+                const lis = document.querySelectorAll('li');
+                
+                modeToggle.addEventListener('click', () => {
+                  body.classList.toggle('dark-mode');
+                  body.classList.toggle('white-mode');
+                  nav.classList.toggle('dark-mode');
+                  nav.classList.toggle('white-mode');
+                  lis.forEach(li => li.classList.toggle('dark-mode'));
+                  lis.forEach(li => li.classList.toggle('white-mode'));
+                });
+              </script>
+  </body>
+</html>
